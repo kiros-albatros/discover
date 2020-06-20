@@ -1,0 +1,42 @@
+.promo {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-image: url(../../img/lake.jpg);
+    padding-top: 320px;
+    padding-bottom: 195px;
+}
+
+.row {
+    margin: 0;
+}
+
+.promo__wrapper {
+    color: white;
+    text-align: center;
+}
+
+.promo__title {
+    font-size: 6.8rem;
+    line-height: 10rem;
+    margin-bottom: 25px;
+
+    @include media-mobile {
+        font-size: 3.8rem;
+        line-height: 5rem;
+    }
+}
+
+.promo__description {
+    font-size: 2.2rem;
+    line-height: 3.8rem;
+    font-family: "Lato-Light";
+}
+
+.btn-success {
+    margin-top: 100px;
+    padding: 20px 40px;
+    font-size: 2.6rem;
+    line-height: 3.4rem;
+    background-color: $color-green;
+}

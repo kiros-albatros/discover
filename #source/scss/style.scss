@@ -2,11 +2,19 @@
 @import "base/_normalize.scss";
 @import "base/_fonts.scss";
 
+
 // Abstract
 @import "abstract/_constants.scss";
 @import "abstract/_mixins.scss";
 
+@import "base/_basic.scss";
+
 //Layout
+@import "layout/_header.scss";
+@import "layout/_promo.scss";
+@import "layout/_favorable.scss";
+@import "layout/_service.scss";
+@import "layout/_tours.scss";
 
 //Components
 @import "components/_buttons.scss";

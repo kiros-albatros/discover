@@ -1,0 +1,40 @@
+.slider {
+    background-image: url(../../img/service.png);
+}
+
+.service__title {
+    width: 110px;
+
+    .title__underline {
+        left: 30%;
+    }
+}
+
+.service__content {
+    padding-top: 65px;
+    background-color: #efeeee;
+}
+
+.service__description {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+}
+
+.service__list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service__card {
+    flex-basis: 40%;
+    text-align: justify;
+    justify-content: center;
+    margin-bottom: 35px;
+
+    img {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+}

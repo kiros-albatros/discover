@@ -1,0 +1,28 @@
+.header__wrapper {
+    background-color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-item {
+    padding: 55px 15px;
+
+    a {
+        color: black !important;
+        font-size: 1.8rem;
+        font-family: "Lato-Bold";
+        text-transform: uppercase;
+    }
+
+    @include media-mobile {
+        padding: 15px;
+    }
+}
+
+.active {
+    background-color: $color-green;
+
+    a {
+        color: white !important;
+    }
+}

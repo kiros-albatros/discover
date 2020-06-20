@@ -1,0 +1,25 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    font-family: "Lato";
+    padding: 10px;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 1171px;
+    margin: 0 auto;
+
+    @include media-tablet {
+        max-width: 760px;
+    }
+}
