@@ -44,6 +44,7 @@
       </div>
     </header>
     <main>
+
       <section class="promo row">
         <div class="wrapper promo__wrapper col-6">
           <h1 class="title promo__title">DISCOVER</h1>
@@ -158,7 +159,28 @@
       <section class="service">
         <div class="service__wrapper">
           <div class="row service__container">
-            <div class="slider col-lg-6"></div>
+            <!--<div class="slider col-lg-6"></div>-->
+
+            <div id="carouselExampleIndicators" class="carousel slide col-lg-6 slider" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/service.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/slide2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/africa.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+            </div>
+
+
             <div class="service__content col-lg-6">
               <h3 class="section__title service__title">
                 service<span class="title__underline"></span>

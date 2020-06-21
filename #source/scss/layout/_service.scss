@@ -6,15 +6,8 @@
 }
 
 .slider {
-    background-image: url(../../img/service.png);
-    background-repeat: no-repeat;
-    background-position: top center;
-    min-height: 610px;
-    background-size: cover;
-
-    @include media-mobile {
-        min-height: 300px;
-    }
+    margin: 0;
+    padding: 0;
 }
 
 .service__title {

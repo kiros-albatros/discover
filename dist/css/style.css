@@ -332,7 +332,7 @@ h3 {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-  background-image: url(../../img/lake.jpg);
+  background-image: url(../img/lake.jpg);
   padding-top: 320px;
   padding-bottom: 195px;
 }
@@ -461,17 +461,8 @@ h3 {
 }
 
 .slider {
-  background-image: url(../../img/service.png);
-  background-repeat: no-repeat;
-  background-position: top center;
-  min-height: 610px;
-  background-size: cover;
-}
-
-@media (max-width: 376px) {
-  .slider {
-    min-height: 300px;
-  }
+  margin: 0;
+  padding: 0;
 }
 
 .service__title {
@@ -551,7 +542,7 @@ h3 {
 }
 
 .galery-item {
-  background-image: url(../../img/tours3.png);
+  background-image: url(../img/tours3.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -582,47 +573,47 @@ h3 {
 }
 
 .galery-item:nth-of-type(1) {
-  background-image: url(../../img/tours1.png);
+  background-image: url(../img/tours1.png);
 }
 
 .galery-item:nth-of-type(2) {
-  background-image: url(../../img/tours2.png);
+  background-image: url(../img/tours2.png);
 }
 
 .galery-item:nth-of-type(4) {
-  background-image: url(../../img/tours4.png);
+  background-image: url(../img/tours4.png);
 }
 
 .galery-item:nth-of-type(5) {
-  background-image: url(../../img/tours5.png);
+  background-image: url(../img/tours5.png);
 }
 
 .galery-item:nth-of-type(6) {
-  background-image: url(../../img/tours6.png);
+  background-image: url(../img/tours6.png);
 }
 
 .galery-item:nth-of-type(7) {
-  background-image: url(../../img/tours7.png);
+  background-image: url(../img/tours7.png);
 }
 
 .galery-item:nth-of-type(8) {
-  background-image: url(../../img/tours8.png);
+  background-image: url(../img/tours8.png);
 }
 
 .galery-item:nth-of-type(9) {
-  background-image: url(../../img/tours9.png);
+  background-image: url(../img/tours9.png);
 }
 
 .galery-item:nth-of-type(10) {
-  background-image: url(../../img/tours10.png);
+  background-image: url(../img/tours10.png);
 }
 
 .galery-item:nth-of-type(11) {
-  background-image: url(../../img/tours11.png);
+  background-image: url(../img/tours11.png);
 }
 
 .galery-item:nth-of-type(12) {
-  background-image: url(../../img/tours12.png);
+  background-image: url(../img/tours12.png);
 }
 
 .tours .btn {
@@ -745,19 +736,19 @@ h3 {
 }
 
 .twitter {
-  background-image: url(../../img/twitter.png);
+  background-image: url(../img/twitter.png);
 }
 
 .google {
-  background-image: url(../../img/google.png);
+  background-image: url(../img/google.png);
 }
 
 .fb {
-  background-image: url(../../img/fb.png);
+  background-image: url(../img/fb.png);
 }
 
 .linkedIn {
-  background-image: url(../../img/linkedIn.png);
+  background-image: url(../img/linkedIn.png);
 }
 
 input,
@@ -828,5 +819,5 @@ textarea {
   height: 20px;
   top: 24px;
   right: 50px;
-  background: url(../../img/send.png) center no-repeat;
+  background: url(../img/send.png) center no-repeat;
 }
