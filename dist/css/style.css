@@ -258,7 +258,7 @@ body {
   font-size: 1.4rem;
   line-height: 2.2rem;
   font-family: "Lato";
-  padding: 10px;
+  padding: 0 10px;
 }
 
 h1,
@@ -278,6 +278,10 @@ h3 {
   }
 }
 
+.navbar {
+  padding: 0;
+}
+
 .header__wrapper {
   background-color: #ffffff;
   padding-left: 10px;
@@ -295,6 +299,10 @@ h3 {
   text-transform: uppercase;
 }
 
+.nav-item a:hover {
+  color: #59c45a !important;
+}
+
 @media (max-width: 376px) {
   .nav-item {
     padding: 15px;
@@ -307,6 +315,10 @@ h3 {
 
 .active a {
   color: white !important;
+}
+
+.active a:hover {
+  color: black !important;
 }
 
 .promo {
@@ -402,6 +414,8 @@ h3 {
 
 .slider {
   background-image: url(../../img/service.png);
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 
 .service__title {
@@ -417,7 +431,7 @@ h3 {
   background-color: #efeeee;
 }
 
-.service__description {
+.description {
   font-size: 1.4rem;
   line-height: 2.4rem;
 }
@@ -524,5 +538,183 @@ h3 {
 }
 
 .tours .btn {
-  box-shadow: 5px 5px 3px #59c45a;
+  box-shadow: 5px 5px 20px 5px #59c45a;
+  border: none;
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.contact {
+  background-color: #efeeee;
+  padding-top: 105px;
+  padding-bottom: 90px;
+  color: #959595;
+}
+
+.contact__container {
+  border: 1px solid lightgrey;
+  padding: 0;
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  padding-left: 15px;
+  padding-right: 30px;
+}
+
+.contact__title {
+  font-size: 2.8rem;
+  line-height: 4.3rem;
+  color: #959595;
+  text-transform: uppercase;
+  margin-bottom: 55px;
+}
+
+.contact__adress {
+  border-right: 1px solid lightgrey;
+}
+
+.contact__description {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.contact__item {
+  display: flex;
+  align-items: center;
+}
+
+.contact__item .contact__info {
+  padding-top: 3px;
+  font-size: 1.4rem;
+  line-height: 3.2rem;
+  font-family: "Lato-Bold";
+  margin-left: 20px;
+  color: #959595;
+}
+
+.social__list {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.social__item {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #c9c9c9;
+  border-radius: 5px;
+}
+
+.social__item:nth-of-type(1):hover {
+  background-color: #4267B2;
+}
+
+.social__item:nth-of-type(2):hover {
+  background-color: #0F9D58;
+}
+
+.social__item:nth-of-type(3):hover {
+  background-color: #2867B2;
+}
+
+.social__item:nth-of-type(4):hover {
+  background-color: #1DA1F2;
+}
+
+.social__link {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+  display: block;
+}
+
+.twitter {
+  background-image: url(../../img/twitter.png);
+}
+
+.google {
+  background-image: url(../../img/google.png);
+}
+
+.fb {
+  background-image: url(../../img/fb.png);
+}
+
+.linkedIn {
+  background-image: url(../../img/linkedIn.png);
+}
+
+input,
+textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #c9c9c9;
+  background-color: #efeeee;
+  padding-bottom: 15px;
+  padding-top: 45px;
+  padding-right: 12px;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  font-size: 1.4rem;
+  line-height: 6rem;
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  font-size: 1.4rem;
+  line-height: 6rem;
+}
+
+input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+  font-size: 1.4rem;
+  line-height: 6rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 1.4rem;
+  line-height: 6rem;
+}
+
+input:active, input:focus,
+textarea:active,
+textarea:focus {
+  outline: none;
+}
+
+textarea {
+  resize: none;
+  padding-left: 12px;
+}
+
+.send__button {
+  background-color: #59c45a;
+  border: none;
+  text-transform: uppercase;
+  font-size: 2.6rem;
+  line-height: 3.3rem;
+  padding: 18px 110px 18px 50px;
+  color: white;
+  margin-top: 60px;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 5px 5px 20px 5px #59c45a;
+}
+
+.send__button:hover {
+  background-color: #2da12f;
+}
+
+.button__icon {
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  top: 24px;
+  right: 50px;
+  background: url(../../img/send.png) center no-repeat;
 }

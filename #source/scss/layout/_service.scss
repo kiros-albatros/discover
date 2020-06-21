@@ -1,5 +1,7 @@
 .slider {
     background-image: url(../../img/service.png);
+    background-repeat: no-repeat;
+    background-position: top center;
 }
 
 .service__title {
@@ -15,7 +17,7 @@
     background-color: #efeeee;
 }
 
-.service__description {
+.description {
     font-size: 1.4rem;
     line-height: 2.4rem;
 }
