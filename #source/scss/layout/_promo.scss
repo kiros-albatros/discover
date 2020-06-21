@@ -5,6 +5,11 @@
     background-image: url(../../img/lake.jpg);
     padding-top: 320px;
     padding-bottom: 195px;
+
+    @include media-mobile {
+        padding-top: 120px;
+        padding-bottom: 95px;
+    }
 }
 
 .row {
@@ -24,6 +29,7 @@
     @include media-mobile {
         font-size: 3.8rem;
         line-height: 5rem;
+
     }
 }
 
@@ -33,10 +39,22 @@
     font-family: "Lato-Light";
 }
 
+.card-title {
+    @include media-mobile {
+        margin-top: 20px !important;
+    }
+}
+
 .btn-success {
     margin-top: 100px;
     padding: 20px 40px;
     font-size: 2.6rem;
     line-height: 3.4rem;
     background-color: $color-green;
+
+    @include media-mobile {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        padding: 10px 20px;
+    }
 }

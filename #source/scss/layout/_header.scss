@@ -2,6 +2,11 @@
     background-color: #ffffff;
     padding-left: 10px;
     padding-right: 10px;
+
+    @include media-tablet {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }
 
 .nav-item {
@@ -18,7 +23,7 @@
         color: $color-green !important;
     }
 
-    @include media-mobile {
+    @include media-tablet {
         padding: 15px;
     }
 }

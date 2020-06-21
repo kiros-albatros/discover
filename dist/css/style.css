@@ -288,6 +288,13 @@ h3 {
   padding-right: 10px;
 }
 
+@media (max-width: 768px) {
+  .header__wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
 .nav-item {
   padding: 55px 15px;
 }
@@ -303,7 +310,7 @@ h3 {
   color: #59c45a !important;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 768px) {
   .nav-item {
     padding: 15px;
   }
@@ -328,6 +335,13 @@ h3 {
   background-image: url(../../img/lake.jpg);
   padding-top: 320px;
   padding-bottom: 195px;
+}
+
+@media (max-width: 376px) {
+  .promo {
+    padding-top: 120px;
+    padding-bottom: 95px;
+  }
 }
 
 .row {
@@ -358,6 +372,12 @@ h3 {
   font-family: "Lato-Light";
 }
 
+@media (max-width: 376px) {
+  .card-title {
+    margin-top: 20px !important;
+  }
+}
+
 .btn-success {
   margin-top: 100px;
   padding: 20px 40px;
@@ -366,9 +386,24 @@ h3 {
   background-color: #59c45a;
 }
 
+@media (max-width: 376px) {
+  .btn-success {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    padding: 10px 20px;
+  }
+}
+
 .favorable__wrapper {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+@media (max-width: 376px) {
+  .favorable__wrapper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 
 .section__title {
@@ -384,6 +419,12 @@ h3 {
   font-family: "Lato";
   padding-bottom: 15px;
   border-bottom: 1px solid lightgrey;
+}
+
+@media (max-width: 376px) {
+  .section__title {
+    margin-bottom: 30px;
+  }
 }
 
 .title__underline {
@@ -412,10 +453,25 @@ h3 {
   font-weight: 700;
 }
 
+@media (max-width: 1200px) {
+  .service__container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .slider {
   background-image: url(../../img/service.png);
   background-repeat: no-repeat;
   background-position: top center;
+  min-height: 610px;
+  background-size: cover;
+}
+
+@media (max-width: 376px) {
+  .slider {
+    min-height: 300px;
+  }
 }
 
 .service__title {
@@ -455,9 +511,28 @@ h3 {
   margin-bottom: 30px;
 }
 
+@media (max-width: 376px) {
+  .service__card img {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 376px) {
+  .service__card {
+    flex-basis: 100%;
+  }
+}
+
 .tours__wrapper {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+@media (max-width: 376px) {
+  .tours__wrapper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 
 .tours__title {
@@ -467,14 +542,6 @@ h3 {
 .tours__title .title__underline {
   width: 40px;
   left: 28%;
-}
-
-.galery-item {
-  background-image: url(../../img/tours3.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  min-height: 215px;
 }
 
 .gallery {
@@ -488,9 +555,30 @@ h3 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 215px;
+  padding-bottom: 20%;
   flex-basis: 23%;
   margin-bottom: 30px;
+}
+
+@media (max-width: 1200px) {
+  .galery-item {
+    flex-basis: 31%;
+    padding-bottom: 25%;
+  }
+}
+
+@media (max-width: 376px) {
+  .galery-item {
+    flex-basis: 46%;
+    padding-bottom: 35%;
+  }
+}
+
+@media (max-width: 370px) {
+  .galery-item {
+    flex-basis: 100%;
+    padding-bottom: 80%;
+  }
 }
 
 .galery-item:nth-of-type(1) {
@@ -545,11 +633,23 @@ h3 {
   margin-top: 100px;
 }
 
+@media (max-width: 376px) {
+  .tours .btn {
+    margin-top: 20px;
+  }
+}
+
 .contact {
   background-color: #efeeee;
   padding-top: 105px;
   padding-bottom: 90px;
   color: #959595;
+}
+
+@media (max-width: 376px) {
+  .contact {
+    padding-top: 30px;
+  }
 }
 
 .contact__container {
@@ -570,8 +670,20 @@ h3 {
   margin-bottom: 55px;
 }
 
+@media (max-width: 376px) {
+  .contact__title {
+    margin-bottom: 30px;
+  }
+}
+
 .contact__adress {
   border-right: 1px solid lightgrey;
+}
+
+@media (max-width: 376px) {
+  .contact__adress {
+    border: none;
+  }
 }
 
 .contact__description {

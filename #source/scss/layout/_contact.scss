@@ -3,6 +3,10 @@
     padding-top: 105px;
     padding-bottom: 90px;
     color: #959595;
+
+    @include media-mobile {
+        padding-top: 30px;
+    }
 }
 
 .contact__container {
@@ -21,10 +25,18 @@
     color: #959595;
     text-transform: uppercase;
     margin-bottom: 55px;
+
+    @include media-mobile {
+        margin-bottom: 30px;
+    }
 }
 
 .contact__adress {
     border-right: 1px solid lightgrey;
+
+    @include media-mobile {
+        border: none;
+    }
 }
 
 .contact__description {
